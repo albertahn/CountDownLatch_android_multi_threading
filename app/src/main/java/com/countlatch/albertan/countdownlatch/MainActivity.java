@@ -34,10 +34,6 @@ public class MainActivity extends AppCompatActivity{
 
     public byte[] imageData;
 
-
-    private static CountDownLatch _latch;
-    private static int N = 6;
-
     @Override
     public void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
